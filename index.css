@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aquamarine;
+}
+div{
+    position: relative;
+    top: 0px;
+    width: 50%;
+    height: 550px;
+    margin-left: 24%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 20px rgb(128, 128, 128);
+}
+h1{
+    font-size: 50px;
+    margin-left: 36%;
+    font-weight: bolder;
+}
+h2{
+    margin-top: 7%;
+}
+section{
+    margin-top: 5%;
+}
+#number{
+    border: 0.7px solid orangered;
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+h2,h3,#number::placeholder{
+    color: orangered;
+}
+#check{
+    margin-left: 2px;
+    width: 120px;
+    height: 33px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-color: orangered;
+}
+#check:focus{
+    border-color: black;
+}
+#winMsg{
+    
+    margin-top: 2%;
+    color: rgb(151, 2, 2);
+}
+#gueessRe{
+    
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom:-2px ;
+}
+#insta,#linkedin{
+    padding: 10px 10px;
+}
+
+#fb{
+    
+    padding: 10px 15px;
+}
+section a img{
+    border: 1px solid orangered;
+        margin-top: -60px;
+        display: inline-block;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+}
