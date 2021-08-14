@@ -27,7 +27,7 @@ function checkNumber(){
         
         
         }
-    
+        document.getElementById("guessImage").style.display="none";
         if (guess==='q') {
             x.innerHTML="Ok, You Quit!";
         } else {
