@@ -18,9 +18,12 @@ div{
     background-color: aliceblue;
     box-shadow: 5px 5px 20px rgb(128, 128, 128);
 }
+header{
+    
+    margin-left: 32.5%;
+}
 h1{
     font-size: 50px;
-    margin-left: 36%;
     font-weight: bolder;
 }
 h2{
@@ -41,6 +44,7 @@ h2,h3,#number::placeholder{
     color: orangered;
 }
 #check{
+    cursor: pointer;
     margin-left: 2px;
     width: 120px;
     height: 33px;
@@ -64,6 +68,7 @@ h2,h3,#number::placeholder{
 }
 
 h3{
+    position:static;
     font-weight: bold;
     margin-top: 10%;
     margin-bottom:-2px ;
